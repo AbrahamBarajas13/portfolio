@@ -120,7 +120,7 @@ export const projects = [
     summary:
       'A real-time web app for D&D players to track character resources — HP, spell slots, and consumables — and share them with their table. Players sign in with Google, build characters, and join parties via invite codes so the whole group sees live updates. Includes custom theming and an encounter difficulty calculator.',
     tools: ['React', 'Vite', 'Firebase', 'Realtime DB', 'Google Auth'],
-    link: 'https://github.com/AbrahamBarajas13/resource-tracker',
+    link: 'https://resource-tracker-wheat.vercel.app/',
   },
 ]
 
