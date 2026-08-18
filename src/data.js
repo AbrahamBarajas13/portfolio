@@ -95,21 +95,30 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'REST API & Data Integration Layer',
+    name: 'Eureka WP — Water Probe App',
     kind: 'Work',
-    period: '2022 – Present',
+    period: '2024',
     summary:
-      'Designed and built a RESTful API service consumed by mobile and web clients, with schema-validated data models, role-based access configuration, and structured data mapping between systems.',
-    tools: ['Node.js', 'TypeScript', 'MongoDB', 'REST'],
-    link: null,
+      'iOS app for Eureka Water Probes’ multi-parameter water-quality instruments. Built the BLE integration layer connecting the app to the probes over Bluetooth Low Energy — device pairing, authentication, live sensor readings, and real-time data sync. Shipped to the App Store.',
+    tools: ['React Native', 'TypeScript', 'BLE', 'iOS'],
+    link: 'https://apps.apple.com/us/app/eureka-wp/id6738590090',
   },
   {
-    name: 'BLE IoT Integration Platform',
+    name: 'WIGL App',
     kind: 'Work',
-    period: '2022 – Present',
+    period: '2024',
     summary:
-      'Built an event-driven MQTT integration layer connecting mobile applications to BLE-enabled hardware, handling authentication, data translation, and real-time sync with sub-200ms round trips.',
-    tools: ['React Native', 'TypeScript', 'MQTT', 'BLE'],
+      'Contributed to the WIGL iOS app: repaired and improved the in-app calendar/scheduling and light-settings features, and reworked the CSS across the majority of the app for a cleaner, more consistent interface. Published on the App Store.',
+    tools: ['React Native', 'TypeScript', 'CSS', 'iOS'],
+    link: 'https://apps.apple.com/us/app/wigl-app/id6738934322',
+  },
+  {
+    name: 'Gel Blaster Analytics Dashboard',
+    kind: 'Work',
+    period: '2021 – 2022',
+    summary:
+      'Analytics dashboard for Gel Blaster (built at Guinn Partners) surfacing gameplay data from platform APIs. Visualized usage across game modes, locations, and quantity/time per game as interactive graphs, plus a calendar view for per-day stats with a bar graph and a filterable table for drilling into specifics. Internal company tool — not publicly linkable.',
+    tools: ['React', 'JavaScript', 'REST APIs', 'Data Viz'],
     link: null,
   },
   // ---- Personal projects ----
