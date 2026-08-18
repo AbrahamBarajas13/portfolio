@@ -126,7 +126,7 @@ export const projects = [
     kind: 'Work',
     period: '2021 – 2022',
     summary:
-      'Phase 1 of the AtomAI project (at Guinn Partners): a Node.js scraper that pulls images and their metadata from the Library of Congress by control number, saving the photos locally and compiling structured metadata into JSON for downstream organization. Co-built with a teammate.',
+      'Phase 1 of the AtomAI project (at Guinn Partners): a Node.js scraper that pulls images and their metadata from the Library of Congress by control number, saving the photos locally and compiling structured metadata into JSON for downstream organization.',
     tools: ['JavaScript', 'Node.js', 'Cheerio', 'Axios'],
     link: 'https://github.com/Jmerc03/webScraping',
   },
@@ -144,7 +144,7 @@ export const projects = [
     kind: 'Work',
     period: '2022',
     summary:
-      'A web dashboard for monitoring a fleet of Bambu Lab X1C 3D printers at a glance, using a playful plant-growth metaphor — each printer is a plant that grows as its print progresses. Surfaces live job status, filament, error codes, and time estimates for 10+ printers over MQTT, with color-coded states. Co-coded with a teammate.',
+      'A web dashboard for monitoring a fleet of Bambu Lab X1C 3D printers at a glance, using a playful plant-growth metaphor — each printer is a plant that grows as its print progresses. Surfaces live job status, filament, error codes, and time estimates for 10+ printers over MQTT, with color-coded states.',
     tools: ['TypeScript', 'JavaScript', 'Node.js', 'MQTT'],
     link: 'https://github.com/Jmerc03/bambu-plant',
   },
