@@ -158,6 +158,15 @@ export const projects = [
     tools: ['React', 'Vite', 'Firebase', 'Realtime DB', 'Google Auth'],
     link: 'https://resource-tracker-wheat.vercel.app/',
   },
+  {
+    name: 'Breweathery — Brewery & Weather Finder',
+    kind: 'Personal',
+    period: '2022',
+    summary:
+      'Coding-bootcamp group project: search any location and get back nearby breweries alongside current weather, pulled live from two public APIs. Mid-build, the weather API’s server went down — I traced the outage, sourced a replacement weather API, and integrated it the same day so the team never lost momentum; once the original came back online we shipped on it for the final presentation.',
+    tools: ['JavaScript', 'jQuery', 'HTML & CSS', 'REST APIs'],
+    link: 'https://cadencechiappe.github.io/GP1-Bootcamp/',
+  },
 ]
 
 export const education = [
