@@ -121,6 +121,33 @@ export const projects = [
     tools: ['React', 'JavaScript', 'REST APIs', 'Data Viz'],
     link: null,
   },
+  {
+    name: 'Library of Congress Web Scraper',
+    kind: 'Work',
+    period: '2021 – 2022',
+    summary:
+      'Phase 1 of the AtomAI project (at Guinn Partners): a Node.js scraper that pulls images and their metadata from the Library of Congress by control number, saving the photos locally and compiling structured metadata into JSON for downstream organization. Co-built with a teammate.',
+    tools: ['JavaScript', 'Node.js', 'Cheerio', 'Axios'],
+    link: 'https://github.com/Jmerc03/webScraping',
+  },
+  {
+    name: 'AtomAI — Tamper-Evident Photo Verification',
+    kind: 'Work',
+    period: '2021 – 2022',
+    summary:
+      'R&D project (at Guinn Partners) building on the scraper above: camera-attachment software that stamped each photo with a fingerprint so any alteration — or removal from the storage device — would be detectable. Transfers required approval through a web app that verified a photo was unaltered and issued certifications of proof. The product was ultimately shelved by management, but the work surfaced a lightweight toolset that got the job done.',
+    tools: ['Node.js', 'Image Fingerprinting', 'Cryptography', 'R&D'],
+    link: null,
+  },
+  {
+    name: 'Bambu Plant — 3D Printer Fleet Dashboard',
+    kind: 'Work',
+    period: '2022',
+    summary:
+      'A web dashboard for monitoring a fleet of Bambu Lab X1C 3D printers at a glance, using a playful plant-growth metaphor — each printer is a plant that grows as its print progresses. Surfaces live job status, filament, error codes, and time estimates for 10+ printers over MQTT, with color-coded states. Co-coded with a teammate.',
+    tools: ['TypeScript', 'JavaScript', 'Node.js', 'MQTT'],
+    link: 'https://github.com/Jmerc03/bambu-plant',
+  },
   // ---- Personal projects ----
   {
     name: 'D&D Resource Tracker',
